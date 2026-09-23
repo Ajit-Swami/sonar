@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        SONAR_PROJECT_KEY = 'java-app'
+        SONAR_PROJECT_KEY = 'demo-sonar'
     }
 
     stages {
