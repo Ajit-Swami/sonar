@@ -3,11 +3,11 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven-3.9'
+        maven 'maven'
     }
 
     environment {
-        SONAR_PROJECT_KEY = 'demo-java-app'
+        SONAR_PROJECT_KEY = 'java-app'
     }
 
     stages {
