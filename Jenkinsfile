@@ -15,7 +15,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/Ishikapbhatt/demo-java-sonar.git'
+                    url: 'https://github.com/Ajit-Swami/sonar.git'
             }
         }
 
