@@ -30,7 +30,7 @@ pipeline {
 
         stage('SonarQube Analysis') {
             steps {
-                withSonarQubeEnv('sonarqube') {
+                withSonarQubeEnv('my-sonarqube') {
                     sh '''
                         echo "Running SonarQube analysis..."
 
